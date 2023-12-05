@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+a{
+    text-decoration: none;
+    transition: color 1.5s;
+}
+
+.conteinder{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    
+}
+
+.dark-link{
+    color: red;
+    transition: color 1.5s;
+}
+
+.dark-link:hover{
+    color: white;
+    transition: color 1.5s;
+}
+
+.acha{
+    background-color: black;
+    color: white;
+}
+
+
+
+header{
+    padding: 8px 24px;
+
+    position: fixed;
+    width: 100%;
+    
+}
+
+header .conteinder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 8px;
+    column-gap: 24px;
+}
+
+header img{
+    width: 120px;
+}
+
+header nav ul li{
+    list-style-type: none;
+    
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li+li{
+    margin-left: 24px;
+}
+
+header a{
+    color: white;
+    transition: color 1.5s;
+   
+}
+
+header a:hover{
+    color: brown;
+}
+
+h2{
+    margin-bottom: 20px;
+    border-left: 4px solid red;
+    padding-left: 8px;
+}
+
+
+.hero{
+    height: 400px;
+    padding: 24px;
+    background-image: url("../imagens/banner.jpg");
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+
+.hero h1{
+     color: white;
+     font-size: 36px;
+     text-align: center;
+}
+
+
+.cardoso{
+    margin-top: 24px;
+    display: flex;
+}
+
+.cardoso button{
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.cardoso button+ button{
+    margin-left: 8px;
+}
+
+button.active{
+        background-color: brown;
+}
+
+.galeria{
+    padding: 64px 24px 96px;
+}
+
+
+.gallery-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.gallery-row figure{
+    flex: 1 1 250px;
+    
+}
+
+.gallery-row figure img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.galeria figure figcaption{
+    font-weight: bolder;
+}
+
+.historia{
+    padding: 92px 24px;
+    color: white;
+    border-top: 4px solid red;
+}
+
+.historia .conteinder{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid red;
+    gap: 30px;
+    
+}
+
+.historia .conteinder .amor{
+    flex: 1 1 350px;
+}
+
+.historia .conteinder .amor img{
+    display: block;
+    width: 100%;
+}
+
+
+
+.historia p{
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.historia p + p{
+    margin-top: 24px;
+}
+
+footer{
+    color: white;
+    padding: 64px 0;
+    
+}
+
+footer p{
+    text-align: center;
+
+}
+
+
+
+
+
